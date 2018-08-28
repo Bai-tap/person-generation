@@ -5,6 +5,10 @@ public class Student extends Person {
     private String program = "hello";
     private int year = 1;
 
+    public Student() {
+
+    }
+
     public Student(double fee, String program, int year) {
         this.fee = fee;
         this.program = program;
