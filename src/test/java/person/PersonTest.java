@@ -25,5 +25,11 @@ public class PersonTest {
     }
 
     @Test
-    public void testToString
+    public void testToString() {
+        Person person = new Person("sơn", "vỏ ốc");
+        String expected = "thằng sơn đang trú tại: vỏ ốc";
+
+        String actual = person.toString();
+        assertEquals(actual, expected);
+    }
 }
