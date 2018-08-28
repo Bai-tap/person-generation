@@ -48,7 +48,7 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        return "thằng " + getName() + " đang trú tại: " + getAddress() + " đang học chương trình: " + getProgram()
-                + " trong " + getYear() + ", nợ " + getFee() + " tiền học phí";
+        return "thằng " + getName() + " đang trú tại: " + getAddress() + ", đang học chương trình: " + getProgram()
+                + " trong " + getYear() + " năm, nợ " + getFee() + "vnđ tiền học phí";
     }
 }
